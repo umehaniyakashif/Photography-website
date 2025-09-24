@@ -5,23 +5,64 @@ body {
 }
 .ic--baseline-search {
   display: inline-block;
-  width: 20px;
+  width: 30px;
   height: 20px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14'/%3E%3C/svg%3E");
-  background-color: red;
+}
+.nav-logo{
+    color: whitesmoke;
 }
 #header {
     height: 80px;
     width: 1355px;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-
 }
-.nav-items {
+#nav-items {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.menu {
+    color: wheat;
+}
+.hero {
+    height: 200px;
+    width: 490px;
+    background-color: rgba(0, 0, 0);
+    margin-top: 240px;
+    margin-left: 460px;
+}
+#hero-heading {
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#hero-info{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+#explore {
+    height: 45px;
+    width: 146px;
+    color: black;
+    background-color: #fcdc00;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 2px, solid;
+    margin-left: 174px;
+    margin-top: 56px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+}
