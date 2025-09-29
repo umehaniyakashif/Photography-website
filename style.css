@@ -84,41 +84,50 @@ button {
     background-color: #fcdc00;
 }  
 .gallery {
+    background-color: #f9f9ff;
     height: 1600px;
-    background-color: blue;
-
 }
 #gallery-nav {
-    background-color: rgb(211, 204, 204);
+    background-color: whitesmoke;
     height: 48px;
     width: 928px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    
+    margin-left: 200px;
+    margin-top: 130px;
 
 
 }
 #gallery-div {
     display: flex;
-    justify-content: center;    
+    justify-content: space-around;
+    width: 50%;    
+    
 
 
 }
+
 .names {
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 600;
+    
+}
+.names:hover {
+    background-color: #fcdc00;
 
 }
+
 #photos {
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 3px;
+}
+.pics {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 h4 {
     color: white;
@@ -128,4 +137,7 @@ img {
     height: 200px;
     border: 2px black double;
     border-radius: 3px;
+}
+#load {
+    margin-top: 200px;
 }
