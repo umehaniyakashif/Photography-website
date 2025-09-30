@@ -102,16 +102,11 @@ a {
     margin-left: 200px;
     margin-top: 130px;
     margin-bottom: 70px;
-
-
 }
 #gallery-div {
     display: flex;
     justify-content: space-around;
     width: 50%;    
-    
-
-
 }
 
 .names {
@@ -119,11 +114,9 @@ a {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 600;
-    
 }
 .names:hover {
     background-color: #fcdc00;
-
 }
 .photos-section {
     width: 1100px;
@@ -132,7 +125,6 @@ a {
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
-
 }
 
 #photos {
@@ -143,7 +135,6 @@ a {
 .pic-one {
     padding-left: 15px;
     padding-right: 15px;
-
 }
 .pics {
     margin-left: 40px;
@@ -151,7 +142,9 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 30px;
-
+}
+.pics :hover {
+zoom: 1.2;
 }
 
 h4 {
@@ -161,7 +154,6 @@ h4 {
 img {
     width: 210px;
     height: 247.375px;
-
 }
 #load {
     width: 190px;
@@ -175,5 +167,28 @@ img {
     padding-right: 5px;
     margin-left: 560px;
     cursor: pointer;
+}
+.testimonials {
+    margin-top: 290px;
+    padding-top: 120px;
+    padding-bottom: 240px;
+    background-color: #fcdc00;
+}
+#writing {
+    padding-left: 15px;
+    padding-right: 15px; 
 
+}
+#heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 18px;
+
+}
+#client {
+    padding: 40px 45px 40px 40px;
+} 
+#client-photo {
+    height: 100px;
+    width: 100px;
 }
