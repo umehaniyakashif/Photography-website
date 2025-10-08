@@ -168,27 +168,81 @@ img {
     margin-left: 560px;
     cursor: pointer;
 }
+.whole-testimonial {
+    display: flex;
+    flex-direction: row;
+}
 .testimonials {
+    height: 189px;
+    width: 100%;
     margin-top: 290px;
     padding-top: 120px;
     padding-bottom: 240px;
     background-color: #fcdc00;
 }
 #writing {
+    height: 249px;
+    width: 450px;
     padding-left: 15px;
-    padding-right: 15px; 
-
+    padding-right: 15px;
+    margin-left: 60px;
+}
+#introduction {
+    margin-top: 44px;
 }
 #heading {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 18px;
-
 }
-#client {
-    padding: 40px 45px 40px 40px;
+#lorem {
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+}
+.feedback {
+    height: 249px;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-left: 209px;
 } 
+#description {
+    display: flex;
+    justify-content: center;
+}
+#client-image {
+    display: flex;
+    padding-right: 30px;
+    align-items: center;
+}
 #client-photo {
     height: 100px;
     width: 100px;
+}
+#client-description {
+    width: 255px;
+    height: 169px;
+    margin-top: 30px;
+}
+#describe {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 17px;
+}
+#client-name {
+    font-weight: bolder;
+    color: #222222;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#client-role {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
 }
