@@ -240,9 +240,101 @@ img {
     font-size: 20px;
     margin-bottom: 8px;
 }
-#client-role {
+.client-role {
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #777777;
+}
+#website-services {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 643px;
+    width: 100%;
+}
+#whole {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#why-the-best {
+    text-align: center;
+    margin-bottom: 75px;
+}   
+.client-role {
+    padding-top: 20px;
+}
+.services-whole {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 15px;
+    margin-left: 100px;
+
+}
+#expert-technicians {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#expert-technicians:hover {
+    background-color: #fcdc00;
+} 
+#professional-service {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#professional-service:hover {
+    background-color: #fcdc00;
+}
+#great-support {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#great-support:hover {
+    background-color: #fcdc00;
+}
+#technical-skills {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#technical-skills:hover {
+    background-color: #fcdc00;
+}
+#highly-recomended {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#highly-recomended:hover {
+    background-color: #fcdc00;
+}
+#positive-reviews {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 320px;
+    height: 170px;
+    border: 2px solid #eeeeee;
+}
+#positive-reviews:hover {
+    background-color: #fcdc00;
+}
+.services-describe {
+    text-align: center;
+}
+.Service-heading {
+    padding-top: 20px;
 }
