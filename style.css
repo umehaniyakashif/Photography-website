@@ -359,3 +359,14 @@ img {
     margin-right: 30px;
     margin-top: 70px;
 }
+.page-footer {
+    height: 300px;
+    width: 100%;
+    background-color: #04091e;
+}
+.footer-headings {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
