@@ -360,7 +360,7 @@ img {
     margin-top: 70px;
 }
 .page-footer {
-    height: 300px;
+    height: 380px;
     width: 100%;
     background-color: #04091e;
 }
@@ -369,4 +369,50 @@ img {
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+}
+.footer-details {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+#my-name {
+    color:#fcdc00;
+}
+input {
+    height: 35px;
+    width: 280px;
+    background-color: #f9f9ff;
+    border: none;
+}
+#arrow-button {
+    width: 45px;
+    height: 35px;
+    background-color: #fcdc00;
+    border: none;
+}
+#arrow {
+    display: flex;
+}
+#footer-whole-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+#about-me {
+    margin-left: 40px;
+    margin-right: 90px;
+    width: 57vh;
+    height: 125px;
+}
+#newsettler {
+    margin-right: 20px;
+    height: 125px;
+    width: 60vh;
+}
+#follow-me {
+    margin-left: 45px;
 }
