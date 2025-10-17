@@ -85,6 +85,7 @@ a {
     background-color: #fcdc00;
     font-size: 14px;
     font-weight: 600;
+    border: none;
 }  
 .gallery {
     background-color: #f9f9ff;
@@ -94,7 +95,7 @@ a {
 }
 #gallery-nav {
     background-color: whitesmoke;
-    height: 48px;
+    height: 60px;
     width: 928px;
     display: flex;
     justify-content: center;
@@ -106,18 +107,28 @@ a {
 #gallery-div {
     display: flex;
     justify-content: space-around;
-    width: 50%;    
+    width: 50%;
+    height: 50px;    
 }
-
+.gallery-nav-items:hover {
+    background-color: #fcdc00;
+}
+.gallery-nav-items {
+    border: 1px solid #eeeeee;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    transition: all 300ms linear;
+}
 .names {
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 600;
 }
-.names:hover {
+/*.names:hover {
     background-color: #fcdc00;
-}
+}/*/
 .photos-section {
     width: 1100px;
     height: 1052px;
@@ -142,6 +153,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 30px;
+
 }
 .pics :hover {
 zoom: 1.2;
@@ -269,72 +281,24 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 15px;
-    margin-left: 100px;
+    margin-left: 50px;
 
 }
-#expert-technicians {
+.webpage-services:hover {
+    background-color: #fcdc00;
+}
+.webpage-services {
     padding-left: 15px;
     padding-right: 15px;
     width: 320px;
     height: 170px;
     border: 2px solid #eeeeee;
-}
-#expert-technicians:hover {
-    background-color: #fcdc00;
-} 
-#professional-service {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 320px;
-    height: 170px;
-    border: 2px solid #eeeeee;
-}
-#professional-service:hover {
-    background-color: #fcdc00;
-}
-#great-support {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 320px;
-    height: 170px;
-    border: 2px solid #eeeeee;
-}
-#great-support:hover {
-    background-color: #fcdc00;
-}
-#technical-skills {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 320px;
-    height: 170px;
-    border: 2px solid #eeeeee;
-}
-#technical-skills:hover {
-    background-color: #fcdc00;
-}
-#highly-recomended {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 320px;
-    height: 170px;
-    border: 2px solid #eeeeee;
-}
-#highly-recomended:hover {
-    background-color: #fcdc00;
-}
-#positive-reviews {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 320px;
-    height: 170px;
-    border: 2px solid #eeeeee;
-}
-#positive-reviews:hover {
-    background-color: #fcdc00;
+    transition: all 300ms linear;
 }
 .services-describe {
     text-align: center;
 }
+
 .Service-heading {
     padding-top: 20px;
 }
